@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PROJECT - X</string>
+    <string name="logo_app_counter">Logo do app Counter</string>
+    <string name="counter">Counter</string>
+    <string name="logo_app_shuffle_pictures">Logo do app Shuffle Pictures</string>
+    <string name="shuffle_picture">Shuffle Picture</string>
+    <string name="logo_app_take_picture">Logo do app Take Picture</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="novo_app_em_breve">Novo app em breve</string>
+    <string name="coming_soon">Coming soon!</string>
+</resources>
