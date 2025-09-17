@@ -8,4 +8,12 @@
     <string name="take_picture">Take Picture</string>
     <string name="novo_app_em_breve">Novo app em breve</string>
     <string name="coming_soon">Coming soon!</string>
+
+    <!-- STRINGS APP COUNTER-->
+    <string name="app_name_counter">appTeste</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="_0">0</string>
+    <string name="voltar">voltar</string>
+    <string name="the_counter">THE COUNTER</string>
 </resources>
