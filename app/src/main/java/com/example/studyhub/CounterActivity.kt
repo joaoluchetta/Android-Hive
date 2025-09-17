@@ -2,23 +2,20 @@ package com.example.studyhub
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.studyhub.databinding.ActivityCounterBinding
-import com.example.studyhub.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 
-private var contador = 0
 
 class CounterActivity : AppCompatActivity(){
+    private var contador = 0
+    private lateinit var binding: ActivityCounterBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityCounterBinding.inflate(layoutInflater)
+        binding = ActivityCounterBinding.inflate(layoutInflater)
         setContentView(binding.rootCounter)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.rootCounter)) { v, insets ->

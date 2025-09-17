@@ -10,10 +10,14 @@
     <string name="coming_soon">Coming soon!</string>
 
     <!-- STRINGS APP COUNTER-->
-    <string name="app_name_counter">appTeste</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="_0">0</string>
     <string name="voltar">voltar</string>
     <string name="the_counter">THE COUNTER</string>
+
+    <!-- STRINGS APP SHUFFLE-->
+    <string name="text_button">Image Sorter</string>
+    <string name="image_content_description">Shuffle Images</string>
+    <string name="shuffle_pictures">SHUFFLE PICTURES</string>
 </resources>

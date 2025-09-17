@@ -47,7 +47,10 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <ImageView
                     android:id="@+id/logoCounter"
@@ -55,7 +58,8 @@
                     android:layout_height="100dp"
                     android:contentDescription="@string/logo_app_counter"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/logo_counter" />
+                    android:src="@drawable/img_logo_counter"
+                    />
 
                 <TextView
                     android:id="@+id/titleCounter"
@@ -69,11 +73,15 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnShuffle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <ImageView
                     android:id="@+id/logoShuffle"
@@ -81,7 +89,7 @@
                     android:layout_height="100dp"
                     android:contentDescription="@string/logo_app_shuffle_pictures"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/logo_shuffle_picture" />
+                    android:src="@drawable/img_logo_shuffle" />
 
                 <TextView
                     android:id="@+id/titleShuffle"
@@ -99,7 +107,10 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <ImageView
                     android:id="@+id/logoTakePicture"
@@ -107,7 +118,7 @@
                     android:layout_height="100dp"
                     android:contentDescription="@string/logo_app_take_picture"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/logo_take_picture" />
+                    android:src="@drawable/img_logo_camera" />
 
                 <TextView
                     android:id="@+id/titleTakePicture"
@@ -121,11 +132,15 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnComingSoon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <ImageView
                     android:id="@+id/logoConstruction"
@@ -133,7 +148,7 @@
                     android:layout_height="100dp"
                     android:contentDescription="@string/novo_app_em_breve"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/logo_construction" />
+                    android:src="@drawable/img_logo_construction" />
 
                 <TextView
                     android:id="@+id/titleConstruction"
