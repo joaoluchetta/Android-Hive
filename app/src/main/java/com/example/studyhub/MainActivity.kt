@@ -36,14 +36,19 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentShuffle)
         }
 
+        binding.btnCamGrant.setOnClickListener {
+            val intentCamGrant = Intent(this, CamGrantActivity::class.java)
+            startActivity(intentCamGrant)
+        }
+
         binding.btnComingSoon.setOnClickListener {
-            val builder = AlertDialog.Builder(this) // 'this' é a Activity
-            builder.setTitle("Coming Soon!")           // título da janelinha
-            builder.setMessage("Stay Tuned – New Projects Coming Soon") // mensagem
+            val builder = AlertDialog.Builder(this)
+            builder.setTitle("Coming Soon!")
+            builder.setMessage("Stay Tuned – New Projects Coming Soon")
             builder.setPositiveButton("OK") { dialog, _ ->
-                dialog.dismiss() // fecha a janelinha ao clicar em OK
+                dialog.dismiss()
             }
-            builder.setCancelable(true) // permite fechar ao clicar fora da caixa
+            builder.setCancelable(true)
             builder.show()
         }
     }
