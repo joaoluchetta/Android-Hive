@@ -58,10 +58,5 @@ Aplicativo que permite ao usuário tirar fotos com a câmera do dispositivo.
 
 ---
 
-## 📸 Demonstrações  
-👉 Aqui você pode colocar screenshots ou GIFs dos apps rodando, se quiser deixar mais atrativo.  
-
----
-
 ## 📜 Licença  
 Este projeto é de uso pessoal e acadêmico.  
