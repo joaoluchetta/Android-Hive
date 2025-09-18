@@ -11,7 +11,7 @@ import com.google.android.material.snackbar.Snackbar
 
 
 class CounterActivity : AppCompatActivity(){
-    private var contador = 0
+    private var count = 0
     private lateinit var binding: ActivityCounterBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,28 +26,23 @@ class CounterActivity : AppCompatActivity(){
             insets
         }
 
-//        val textContador: TextView = findViewById(R.id.textContador)
-//        val btnPlus: Button = findViewById(R.id.btnPlus)
-//        val btnMinus: Button = findViewById(R.id.btnMinus)
-
         binding.btnPlus.setOnClickListener{ rootCounter ->
-            contador++
-            binding.textContador.text = contador.toString()
+            count++
+            binding.textCounter.text = count.toString()
         }
 
         binding.btnMinus.setOnClickListener{ rootCounter ->
-            contador--
-            if(contador >= 0)
-                binding.textContador.text = contador.toString()
+            count--
+            if(count >= 0)
+                binding.textCounter.text = count.toString()
             else {
-                contador = 0
-                //Toast.makeText(this, "Números negativos não são permitidos", Toast.LENGTH_SHORT).show()
-                Snackbar.make(rootCounter, "Numeros negativos não são permitidos", Snackbar.LENGTH_SHORT).show()
+                count = 0
+                Snackbar.make(rootCounter, "Negative numbers are not allowed.", Snackbar.LENGTH_SHORT).show()
             }
-            binding.textContador.text = contador.toString()
+            binding.textCounter.text = count.toString()
         }
 
-        binding.btnVoltar.setOnClickListener { rootCounter ->
+        binding.btnReturn.setOnClickListener { rootCounter ->
             this.finish()
         }
     }

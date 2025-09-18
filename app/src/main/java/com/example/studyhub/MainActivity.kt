@@ -3,12 +3,11 @@ package com.example.studyhub
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.studyhub.databinding.ActivityMainBinding
-import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -42,14 +41,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnComingSoon.setOnClickListener {
-            val builder = AlertDialog.Builder(this)
-            builder.setTitle("Coming Soon!")
-            builder.setMessage("Stay Tuned – New Projects Coming Soon")
-            builder.setPositiveButton("OK") { dialog, _ ->
-                dialog.dismiss()
-            }
-            builder.setCancelable(true)
-            builder.show()
+            MaterialAlertDialogBuilder(this)
+                .setTitle("Get Ready!")
+                .setMessage("New projects are coming soon.")
+                .setPositiveButton("OK", null)
+                .show()
         }
     }
 }

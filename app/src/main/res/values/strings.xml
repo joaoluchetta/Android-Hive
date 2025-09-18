@@ -8,12 +8,12 @@
     <string name="take_picture">CamGrant</string>
     <string name="novo_app_em_breve">Novo app em breve</string>
     <string name="coming_soon">Coming soon!</string>
+    <string name="btn_return">Return</string>
 
     <!-- STRINGS APP COUNTER -->
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="_0">0</string>
-    <string name="voltar">voltar</string>
     <string name="the_counter">THE COUNTER</string>
 
     <!-- STRINGS APP SHUFFLE -->
@@ -23,6 +23,8 @@
 
     <!-- STRINGS APP CAMGRANT -->
     <string name="camera">Camera</string>
+    <string name="take_photo">"Take a Photo"</string>
     <string name="foto_atual">Foto atual</string>
-    <string name="take_photo">Take Photo</string>
+    <string name="camera_message">Take Photo</string>
+    <string name="camera_permission">"Camera access is needed to take photos."</string>
 </resources>

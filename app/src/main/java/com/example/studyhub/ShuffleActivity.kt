@@ -84,7 +84,7 @@ class ShuffleActivity : AppCompatActivity() {
                 .into(binding.imageView)
         }
 
-        binding.btnVoltar.setOnClickListener { rootShuffle ->
+        binding.btnReturn.setOnClickListener { rootShuffle ->
             this.finish()
         }
     }

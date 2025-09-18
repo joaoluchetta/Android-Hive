@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textContador"
+        android:id="@+id/textCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
@@ -44,7 +44,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnMinus"
-        app:layout_constraintTop_toBottomOf="@+id/textContador" />
+        app:layout_constraintTop_toBottomOf="@+id/textCounter" />
 
     <Button
         android:id="@+id/btnMinus"
@@ -59,16 +59,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnPlus"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textContador"
+        app:layout_constraintTop_toBottomOf="@+id/textCounter"
         app:strokeColor="@color/red"
         app:strokeWidth="2dp" />
 
     <Button
-        android:id="@+id/btnVoltar"
+        android:id="@+id/btnReturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_back"
-        android:text="@string/voltar"
+        android:text="@string/btn_return"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

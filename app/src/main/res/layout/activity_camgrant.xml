@@ -44,15 +44,15 @@
         app:layout_constraintTop_toBottomOf="@id/imgViewCamera"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/btnVoltar"
+        app:layout_constraintBottom_toTopOf="@+id/btnReturn"
         />
 
     <Button
-        android:id="@+id/btnVoltar"
+        android:id="@+id/btnReturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_back"
-        android:text="@string/voltar"
+        android:text="@string/btn_return"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
