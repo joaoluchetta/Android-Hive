@@ -18,8 +18,6 @@ Um contador simples que possui:
 - Bloqueio de números negativos.
 - Exibição de mensagem de erro caso o usuário tente decrementar abaixo de zero.
 
-🔧 **Desafio implementado:** não permitir valores negativos.
-
 ---
 
 ### 2️⃣ Shuffle APP
