@@ -1,9 +1,9 @@
 # 📱 ANDROID HIVE
 
-**Project-X** é uma central que reúne todos os meus projetos mobile Android.  
+**Android Hive** é uma central que reúne todos os meus projetos mobile Android.  
 A ideia é manter em um só lugar os aplicativos que venho desenvolvendo, começando com projetos simples e evoluindo para mais complexos.
 
-Atualmente, o Project-X conta com **3 aplicativos**, mas o objetivo é expandir e adicionar novos projetos no futuro.🚀
+Atualmente, o Android Hive conta com **3 aplicativos**, mas o objetivo é expandir e adicionar novos projetos no futuro.🚀
 
 O foco deste projeto é centralizar meus conteúdos e experiências de aprendizado em Android Mobile em um único espaço..
 
