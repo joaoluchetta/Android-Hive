@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "StudyHub"
+rootProject.name = "AndroidHive"
 include(":app")

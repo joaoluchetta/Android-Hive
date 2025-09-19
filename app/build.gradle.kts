@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.studyhub"
+    namespace = "com.example.androidhive"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.studyhub"
+        applicationId = "com.example.androidhive"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
