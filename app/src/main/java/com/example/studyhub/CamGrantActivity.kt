@@ -34,7 +34,7 @@ class CamGrantActivity : AppCompatActivity() {
                 .centerCrop()
                 .into(binding.imgViewCamera)
         } else {
-            Snackbar.make(binding.rootCamGrant, "Captura cancelada", Snackbar.LENGTH_SHORT).show()
+            Snackbar.make(binding.rootCamGrant, "Capture aborted", Snackbar.LENGTH_SHORT).show()
         }
     }
 

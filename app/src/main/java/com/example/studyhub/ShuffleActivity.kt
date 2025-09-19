@@ -67,7 +67,7 @@ class ShuffleActivity : AppCompatActivity() {
                         target: com.bumptech.glide.request.target.Target<android.graphics.drawable.Drawable>?,
                         isFirstResource: Boolean
                     ): Boolean {
-                        Snackbar.make(binding.rootShuffle, "Erro ao carregar imagem", Snackbar.LENGTH_SHORT).show()
+                        Snackbar.make(binding.rootShuffle, "Failed to load image", Snackbar.LENGTH_SHORT).show()
                         return false // retorna false para que o Glide ainda mostre o drawable de erro
                     }
 
